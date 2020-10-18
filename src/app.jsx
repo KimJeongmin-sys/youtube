@@ -20,6 +20,15 @@ function App({ youtube }) {
       });
   }, []);
 
+  const refresh = () => {
+    youtube
+      .mostPopular() //
+      .then(videos => {
+        setSelectedVideo(null);
+        setVideos(videos);
+      });
+  };
+
   useEffect(() => {
     youtube
       .mostPopular() //
@@ -27,7 +36,7 @@ function App({ youtube }) {
   }, []);
   return (
     <div className={styles.app}>
-      <SearchHeader onSearch={search} />
+      <SearchHeader onSearch={search} onRefresh={refresh} />
       <section className={styles.content}>
         {selectedVideo && (
           <div className={styles.detail}>
