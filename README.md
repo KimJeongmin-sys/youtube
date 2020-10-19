@@ -1,14 +1,14 @@
-2.1 리액트를 배워야 하는 이유
-페이스북에서 만든 자바스크립트 라이브러리
-Frameworks(Angular, Vue)
-정해진 골격 안에서 원하는 기능 구현
-Libraries(React)
-정해진 골격없이 원하는 라이브러리를 선택하여 기능 구현
-Angular1에서 Angular2로 버전이 바뀌면서 호환 이슈가 많았음.
-React는 버전이 바뀌어도 호환성에 문제없음.
+2.1 리액트를 배워야 하는 이유  
+페이스북에서 만든 자바스크립트 라이브러리  
+Frameworks(Angular, Vue)  
+정해진 골격 안에서 원하는 기능 구현  
+Libraries(React)  
+정해진 골격없이 원하는 라이브러리를 선택하여 기능 구현  
+Angular1에서 Angular2로 버전이 바뀌면서 호환 이슈가 많았음.  
+React는 버전이 바뀌어도 호환성에 문제없음.  
 문서화가 잘되어있음.
 
-2.2리액트 컨셉과 구현 사항
+2.2리액트 컨셉과 구현 사항  
 A library for creating user interfaces
 (유저 인터페이스를 만들 수 있는 라이브러리이다.)
 한 단어로 정의하자면? components(컴포넌트로 이루어진 UI 라이브러리)
@@ -94,4 +94,4 @@ GET(read), POST(create), PUT(update), DELETE(delete)
 
 'yarn add axios'
 axios 라이브러리 추가 (추가된 라이브러리는 package.json 파일에 등록됨)
-"# youtube" 
+"# youtube"
