@@ -90,7 +90,7 @@ RESTful Web services
 GET(read), POST(create), PUT(update), DELETE(delete)
 
 .gitignore에 추가하면 github에 올릴 때 제외됨.  
-보안문제(API KEY...)로 .env파일을 추가한 후 변수 세팅하면 process.env.REACT*APP* ... 이런식으로 호출할 수 있다.(단, 변수를 세팅할 때 prefix로 REACT*APP* 을 붙여야함.)
+보안문제(API KEY...)로 .env파일을 추가한 후 변수 세팅하면 process.env.REACT_APP\_ ... 이런식으로 호출할 수 있다.(단, 변수를 세팅할 때 prefix로 REACT_APP\_ 을 붙여야함.)
 
 'yarn add axios'  
 axios 라이브러리 추가 (추가된 라이브러리는 package.json 파일에 등록됨)
