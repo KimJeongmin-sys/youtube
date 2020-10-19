@@ -37,7 +37,9 @@ class Youtube {
         type: "video",
       },
     });
-    return response.data.items;
+    console.log(response.data.items);
+
+    return response.data.items.map(item => ({ ...item, id: item.id.videoId }));
     // const response = await fetch(
     //   `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${query}&type=video&key=${this.key}`,
     //   this.getRequestOptions

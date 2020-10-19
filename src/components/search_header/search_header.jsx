@@ -17,7 +17,8 @@ const SearchHeader = memo(({ onSearch, onRefresh }) => {
     }
   };
   const logoClick = () => {
-    onRefresh();
+    onRefresh(inputRef);
+    // inputRef.current.value = "";
   };
   return (
     <header className={styles.header}>

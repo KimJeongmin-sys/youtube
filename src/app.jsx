@@ -20,12 +20,13 @@ function App({ youtube }) {
       });
   }, []);
 
-  const refresh = () => {
+  const refresh = inputRef => {
     youtube
       .mostPopular() //
       .then(videos => {
         setSelectedVideo(null);
         setVideos(videos);
+        inputRef.current.value = "";
       });
   };
 
