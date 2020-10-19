@@ -84,8 +84,6 @@ Function => useState()
 useEffect => 컴포넌트가 mount or update 될 때 호출됨.  
 두번째 인자인 배열에 변수를 넣으면 해당 변수가 update될 때 호출(공백이면 update될 때 호출이 안됨.)
 
-유튜브API KEY: AIzaSyDrfU-erG14u1W3Vq0B31pBRp4Pg0-X0zM
-
 RESTful Web services  
 GET(read), POST(create), PUT(update), DELETE(delete)
 
