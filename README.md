@@ -92,4 +92,5 @@ GET(read), POST(create), PUT(update), DELETE(delete)
 
 'yarn add axios'  
 axios 라이브러리 추가 (추가된 라이브러리는 package.json 파일에 등록됨)
-test
+
+$git add . 은 .gitignore에 있는 파일은 제외하고 staged에 올린다. ($git add \* 은 .gitignore와 가끔 충돌이 일어날 수 있다.)
